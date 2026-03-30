@@ -7,7 +7,7 @@ if vel > 80 :
     print (f"0 valor da milta é R${multa: .2f}")"""
 
 #exercicio 2
-
+"""
 num1 = float(input("Numero 1 = "))
 num2 = float(input("Numero 2 = "))
 num3 = float(input("Numero 3 = "))
@@ -27,4 +27,11 @@ if num3 <= num1 and num3 <= num2:
 
     print(f"Maior = {maior}")
     print (f"Menor = {menor}")
-    
+"""    
+
+dist = int(input ("Distancia em km = "))
+if dist <= 200:
+    preco = dist * 0.5 
+else:
+    preco = dist = 0.45
+print (f"o Valor da passagem é R${preco:.2f}")
